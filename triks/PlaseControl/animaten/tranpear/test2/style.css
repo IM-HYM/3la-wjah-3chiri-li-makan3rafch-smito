@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 208, 0);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.body{
+    position: relative;
+    background-color: rgb(255, 119, 232);
+    width: 330px;
+    height: 490px;
+    border-end-end-radius:         40px;
+    border-bottom-left-radius:    40px ;
+    border-top-left-radius:          50% 40%;
+    border-top-right-radius:         50% 40% ;}
+.stk{
+    width: 50px;
+    height: 130px;
+    background-color: rgb(230, 160, 30);
+    border-radius: 0 0 30px 30px;
+}
+*{
+    margin-left: auto;
+    margin-right: auto;
+}
+.eye{
+    background-color:   rgba(230, 42, 199, 0.74);
+    width:  40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.eyedt{
+    width:  20px;
+    height: 20px;
+    background-color: pink;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.eyes{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80%;  
+}
+.lfom{
+    margin-top: 30px;
+    width: 150px;
+    height: 45px;
+    background-color:  rgba(230, 42, 199, 0.74);
+
+    border-bottom-right-radius:   190px;
+    border-end-start-radius:      190px;
+    border-top-right-radius:       50px;
+    border-start-start-radius:     50px;
+}
+.stkShadow{
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.171);
+    height: 16px;
+}
+.light{
+    position:absolute;
+    right: 40px;
+    top: 30px;
+    background-color: rgba(255, 255, 255, 0.39);
+    width:  100px;
+    height: 200px;
+    scale: 0.8;
+    border-radius: 50% 50% 50% 50%;
+    rotate: -30deg;
+    /* border-top-right-radius:         50% 40% ;
+    border-end-start-radius:       ;
+    border-start-end-radius:       ;
+    border-bottom-left-radius:    40px ;
+    border-start-start-radius:     ;
+    border-bottom-right-radius:    ; */
+}
+
+main{
+    scale: 0.8;
+    width: min-content;
+
+}
+main:hover{
+    transition: 3s ;
+    scale: 1;
+}

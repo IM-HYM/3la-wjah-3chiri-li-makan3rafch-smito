@@ -1,0 +1,12 @@
+.t1{
+    background: red;
+    width: min-content;
+}
+.t2{
+    background: red;
+    width: max-content;
+}
+.t3{
+    background: red;
+    width: fit-content;
+}

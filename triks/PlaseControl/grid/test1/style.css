@@ -1,0 +1,28 @@
+.ab{
+    background-color:brown;
+    width:max-content;
+    display: grid;
+    grid-template-columns:repeat(4,minmax(min-content,1fr));
+    grid-template-rows:min-content;
+
+}
+.ab *{
+    font-size: 150%;
+    text-align: center;
+    border: solid 1px black;
+    row-gap: 10px;
+    column-gap: 100px;
+    grid-template-columns: 100px;
+    gap: 1000px;
+}
+.head{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+}
+.infos{
+    gap: 1000px;
+
+    background-color: gray;
+    row-gap: 10px;
+    column-gap: 100px;
+}

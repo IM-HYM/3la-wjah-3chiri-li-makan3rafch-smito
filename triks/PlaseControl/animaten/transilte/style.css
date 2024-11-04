@@ -1,0 +1,39 @@
+ div{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    color: aliceblue;
+    font-size:130%;
+}
+
+.d1{
+    /* تدوير العنصر بزاوية 45 درجة */
+    transform : rotate(45deg);
+}
+.d2{
+    /* تكبير العنصر بنسبة 2 */
+    transform: scale(2);
+}
+.d3{
+/* انعكاس العنصر على محور الأفقية */
+transform: scaleX(-1);
+}
+.d4{
+/* تحريك العنصر بـ 50 بكسل إلى اليمين */
+transform: translateX(50px);
+}
+.d5{
+/* الميل الأفقي للعنصر بزاوية 30 درجة */
+transform: skewX(30deg);
+}
+.d6{
+/* دمج عدة تحويلات مختلفة */
+transform: rotate(45deg) scale(2) translateX(50px);
+}
+
+
+
+

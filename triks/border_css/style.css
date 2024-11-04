@@ -1,0 +1,20 @@
+
+body{
+    background-color: rgb(207, 207, 207);
+}
+h1 {
+    color: rgb(63, 250, 26);
+    font-size: 80px;
+    text-align: center;
+  }
+.bo{
+    border-style:solid;
+    border-color: black;
+    border-radius: 25px;
+    border-width: 2px;
+    display: block;
+    margin-left: 35%;
+    margin-right:35%;
+}
+
+p{text-align: center;}

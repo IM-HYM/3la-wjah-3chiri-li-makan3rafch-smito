@@ -1,0 +1,12 @@
+.tp{
+white-space: pre;
+
+}
+
+
+.fp{
+    color: black;
+
+}
+.wp{white-space:pre-wrap;}
+.tp , .fp , .wp{background-color: rgb(0, 255, 55);width: 200px;}

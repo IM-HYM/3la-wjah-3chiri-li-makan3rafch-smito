@@ -1,0 +1,36 @@
+.con {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mdiv {
+    border-radius: 10px;
+    background-color: rgb(190, 190, 190);
+    margin-top: 8%;
+    padding: 1%;
+    width: 30%;
+
+}
+
+body {
+    background-color: rgb(58, 58, 58);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {text-align: center;}
+
+.checkbox{
+    margin-bottom: 15px;
+    width:  25px;
+    height: 25px;
+}
+.task{
+    font-size: 150%;
+
+}
+hr{
+    border: solid 0.1px rgb(75, 75, 75);
+    border-radius:50%;
+}

@@ -1,0 +1,16 @@
+body{
+background-image: linear-gradient(to top,cyan,white);
+display: block;
+
+/* border: 10px dotted red; */
+/* padding: 10px;
+margin: auto ; */
+padding-bottom: 50%;
+/* background-image: url(photo.jpeg); */
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+background-origin: padding-box;
+/* background-origin: ; */
+}
+

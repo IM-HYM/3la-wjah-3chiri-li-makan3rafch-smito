@@ -1,0 +1,14 @@
+
+table{
+    text-align: center;
+    width:30%;
+    background-color: blueviolet;
+}
+th{
+    background-color: gray;
+}
+td{background-color: rgb(182, 182, 182);}
+
+table *{
+    padding: 10px;
+}

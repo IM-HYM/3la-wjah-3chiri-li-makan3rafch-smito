@@ -1,0 +1,30 @@
+*{
+    text-shadow: 20px;
+}
+#text1{
+    color: red;
+}
+
+.text2{
+    color: rgb(0, 129, 80);
+}
+
+#text3{
+    color: rgb(128, 155, 29);
+}
+
+.text4{
+    color: rgb(0, 180, 235);
+}
+
+
+
+pre {
+    text-align: center;
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+  }
+

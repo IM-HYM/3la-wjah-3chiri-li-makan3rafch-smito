@@ -1,0 +1,22 @@
+.c1{
+    overflow: auto;
+}
+.c2{
+    overflow: hidden;
+}
+.c3{
+    overflow:visible;
+}
+div{
+    width: 200px;
+    height: 200px;
+    /* display: inline; */
+    border: dotted black 10px;
+    margin: 100px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}

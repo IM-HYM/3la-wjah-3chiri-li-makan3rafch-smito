@@ -1,0 +1,5 @@
+.a {text-decoration:dashed aqua overline;}
+.b {text-decoration: solid black line-through;}
+.c {text-decoration: wavy red underline;}
+.link {text-decoration: none;}
+*{font-size: 40px;text-align: center;}

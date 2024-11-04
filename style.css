@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding : 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+body div{
+    margin:.5%;
+    background-color:gray;
+    width:49%;
+    height:60vh;
+}
+iframe{
+    width:100%  ;
+    height:90% ;
+}
+h1{
+    margin: 0;
+    padding : 0;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+}

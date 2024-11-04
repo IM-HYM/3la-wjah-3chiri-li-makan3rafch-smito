@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(83, 83, 83);
+}
+.MainBox{
+    margin-left: auto;
+    margin-right: auto;
+    width:  400px;
+    height: 400px;
+    background-color: rgb(36, 36, 36);
+}
+.pill{
+    background-color: aqua;
+    width:  20px;
+    height: 20px;
+    border-radius:50%;
+
+    animation-name: pill;
+    animation-delay:1s;
+    animation-duration: 2s;
+
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes pill{
+    0%{
+        background-color: red;
+        translate:0 0;
+    }
+    25%{
+        translate:1900% 0;    
+    }
+    50%{
+        background-color: rgb(21, 122, 255);
+        translate: 1900% 1900%;
+    }
+    75%{
+        translate: 0 1900%;
+    }
+    100%{
+        background-color: red;
+        translate: 0 0;
+    }
+}
+
+/* 
+.box{
+    width: 100px;
+    height: 100px;
+    animation-name: box;
+    background-color: blue;
+    animation-duration: 2s;
+    border-radius:30%;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+}
+body{
+    background-color: #222222;
+}
+@keyframes box {
+    0%{
+        rotate: 0deg;
+        background-color: red;
+        translate: 0 0;
+    }
+    25%{
+        background-color: yellow;
+        translate:1000px 0;
+    }
+    50%{
+        background-color: green;
+        translate:1000px 500px;
+    }
+    75%{
+        background-color: aqua;
+        translate:0 500px;
+    }
+    100%{
+        rotate: 100000deg;
+        background-color: blue;
+        translate: 0 0;
+    }
+} */
